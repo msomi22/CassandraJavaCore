@@ -59,6 +59,10 @@ public class LinkedList {
 		}
 		return null;
 	}
+	
+	public void empty() {
+		head = null;
+	}
 
 	public int getSize() {
 		Node temp = head;
