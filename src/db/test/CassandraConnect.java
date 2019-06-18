@@ -25,6 +25,10 @@ public class CassandraConnect {
 		for (Row row : session.execute(cqlStatement)) {
 			System.out.println(row.toString());
 		}
+		
+		
+		
+		
 
 	}
 

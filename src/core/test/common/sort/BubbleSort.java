@@ -30,9 +30,9 @@ class BubbleSort
 	void bubbleSort(int arr[]) 
 	{ 
 		int n = arr.length; 
-		for (int i = 0; i < n-1; i++) 
-			for (int j = 0; j < n-i-1; j++) 
-				if (arr[j] > arr[j+1]) 
+		for (int i = 0; i < n-1; i++) //0 to 6
+			for (int j = 0; j < n-i-1; j++) //6-0-1 = 5
+				if (arr[j] > arr[j+1]) //j 0,1
 				{ 
 					// swap arr[j+1] and arr[i] 
 					int temp = arr[j]; 
